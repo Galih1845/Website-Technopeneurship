@@ -1,0 +1,24 @@
+@baseUrl = https://jsonplaceholder.typicode.com
+@contentType = application/json
+
+### GET semua user
+GET {{baseUrl}}/users
+Content-Type: {{contentType}}
+
+###
+
+### GET detail user
+GET {{baseUrl}}/users/1
+Content-Type: {{contentType}}
+
+###
+
+### POST membuat user baru
+POST {{baseUrl}}/users
+Content-Type: {{contentType}}
+
+{
+  "name": "Galih",
+  "email": "galih@example.com",
+  "username": "galih123"
+}

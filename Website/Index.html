@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Elvora </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <!-- Brand link contains logo + text; supports svg/png/jpg fallbacks -->
+                <a class="brand-link" href="#">
+                    <picture>
+                        <img id="site-logo" src="images/logo.png" alt="Elvora logo">
+                    </picture>
+                    <span class="brand-text">Elvora</span>
+                </a>
+            </div>
+            <nav class="main-nav" aria-label="Main navigation">
+                <div class="nav-links">
+                    <a href="#">Investasi </a>
+                    <a href="#">Layanan </a>
+                    <a href="#">Tanya </a>
+                </div>
+
+                <div class="nav-actions">
+                    <button class="nav-btn outline" type="button">Masuk</button>
+                    <button class="nav-btn primary" type="button">Daftar</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero-landing">
+            <div class="hero-grid">
+                <div class="hero-left">
+                    <h1>Investasi di Saham
+                        <br><em>Skema Crowdfunding</em>
+                        <br>Transparan dan Aman!</h1>
+
+                    <div class="hero-media">
+                        <img src="images/hero.jpg" alt="hero video placeholder" onerror="this.style.opacity=0.6;this.style.background='#f6f6f6'">
+                        <button class="play-overlay" aria-hidden="true">▶</button>
+                    </div>
+
+                    <div class="hero-roles">
+                        <span>Cari tahu Sebagai</span>
+                        <div class="role-buttons">
+                            <button class="btn role btn-primary" data-role="investor">Investor</button>
+                            <button class="btn role" data-role="issuer">Penerbit</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-right">
+                    <p class="lead">Pilihan investasi bisnis berkualitas pada UMKM, Waralaba, Startup, hingga Proyek dengan modal mulai dari Rp1 Juta.</p>
+
+                    <div class="badges">
+                        <!-- replace with real badge images in /images -->
+                        <img src="images/ojk.png" alt="OJK" onerror="this.style.display='none'">
+                        <img src="images/kominfo.png" alt="Kominfo" onerror="this.style.display='none'">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">© <span id="year"></span> Elvora. Semua hak dilindungi.</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

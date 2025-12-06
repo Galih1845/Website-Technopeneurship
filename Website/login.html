@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Masuk — Elvora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+  <main class="login-container">
+    <div class="login-box">
+      <div class="login-brand">
+        <img src="images/logo.png" alt="Elvora logo">
+        <span class="brand-text">Elvora</span>
+      </div>
+      <form id="login-form" class="login-form">
+        <label class="field-label" for="login-identifier">email/No hp</label>
+        <input id="login-identifier" name="identifier" type="text" placeholder="email/No hp" required>
+
+        <label class="field-label" for="login-password">Kata sandi</label>
+        <input id="login-password" name="password" type="password" placeholder="Kata sandi" required>
+
+        <div class="login-actions">
+          <a href="#" id="forgot-pw">Lupa Kata Sandi?</a>
+        </div>
+
+        <button type="submit" class="btn btn-primary login-submit">Masuk</button>
+
+        <div id="login-feedback" class="login-feedback" aria-live="polite"></div>
+
+        <div class="login-signup">Belum punya akun? <a href="register.html">Daftar Sekarang</a></div>
+      </form>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
